@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Excluir conta e dados — Financy</title>
+<meta name="description" content="Como pedir a exclusão da sua conta e dos seus dados do app Financy, da Virtexia.">
+<style>
+  :root { --verde: #0B6E4F; --texto: #13221C; --suave: #4A5B53; --fundo: #F4F7F5; --cartao: #fff; --borda: #D5DED9; }
+  @media (prefers-color-scheme: dark) {
+    :root { --verde: #4FC59A; --texto: #E6EEEA; --suave: #A9B8B1; --fundo: #0F1714; --cartao: #16211D; --borda: #2A3832; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--fundo); color: var(--texto); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 48px; }
+  .marca { display: flex; align-items: center; gap: 12px; margin-bottom: 24px; }
+  .marca svg { width: 44px; height: 44px; flex: none; }
+  .marca strong { font-size: 20px; }
+  .marca span { display: block; font-size: 14px; color: var(--suave); }
+  h1 { font-size: 28px; line-height: 1.25; margin: 0 0 12px; }
+  h2 { font-size: 20px; margin: 32px 0 8px; }
+  section { background: var(--cartao); border: 1px solid var(--borda); border-radius: 16px; padding: 20px; margin-top: 20px; }
+  ol, ul { padding-left: 22px; }
+  li { margin: 8px 0; }
+  a { color: var(--verde); }
+  .email { font-weight: 700; }
+  footer { margin-top: 32px; font-size: 14px; color: var(--suave); }
+</style>
+</head>
+<body>
+<main>
+  <div class="marca">
+    <svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" rx="24" fill="#0B6E4F"/><g fill="#fff" transform="translate(50 50) scale(.68) translate(-51 -50)"><rect x="26" y="16" width="16" height="68" rx="8"/><rect x="26" y="16" width="50" height="16" rx="8"/><circle cx="62" cy="54" r="11"/></g></svg>
+    <div><strong>Financy</strong><span>app de controle financeiro pessoal · Virtexia</span></div>
+  </div>
+
+  <h1>Excluir sua conta e seus dados do Financy</h1>
+  <p>O Financy não cria login próprio. A “conta” é o seu login com o Google, usado só para a <strong>Família</strong>, as <strong>Sugestões</strong> e o <strong>Reportar um problema</strong>. Sem esse login, nada sai do seu celular.</p>
+
+  <section id="excluir-conta">
+    <h2 style="margin-top:0">Como pedir a exclusão da conta</h2>
+    <ol>
+      <li>No app, se estiver numa família, toque em <strong>Mais › Família › Sair</strong> (ou <strong>Encerrar a família</strong>, se você a criou). Isso já apaga do servidor o que era só seu (ou a família inteira, ao encerrar).</li>
+      <li>Envie um e-mail para <a class="email" href="mailto:privacidade@virtexia.com?subject=Excluir%20conta%20Financy">privacidade@virtexia.com</a>, a partir do e-mail da sua Conta do Google, com o assunto <strong>“Excluir conta Financy”</strong>.</li>
+      <li>Em até <strong>30 dias</strong> apagamos tudo e confirmamos por e-mail.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2 style="margin-top:0">O que é apagado</h2>
+    <ul>
+      <li>O seu cadastro no Firebase Authentication: nome, e-mail e identificador da conta.</li>
+      <li>Os dados de família que ainda estiverem no servidor: contas, cartões, categorias, lançamentos, contas fixas, limites e listas de compras.</li>
+      <li>Suas sugestões de ferramentas e seus votos.</li>
+      <li>Seus relatos de problema, com os prints anexados.</li>
+    </ul>
+    <p>Não guardamos cópia depois disso e não há período extra de retenção.</p>
+  </section>
+
+  <section>
+    <h2 style="margin-top:0">O que fica com você</h2>
+    <ul>
+      <li><strong>Dados no celular:</strong> ficam só no aparelho. Apague no app ou desinstale o Financy.</li>
+      <li><strong>Backups no Google Drive:</strong> ficam na pasta “Financy - backups” do seu Drive. Apague a pasta.</li>
+      <li><strong>Acesso do app à sua Conta do Google:</strong> remova em <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+    </ul>
+  </section>
+
+  <section id="excluir-dados">
+    <h2 style="margin-top:0">Apagar só parte dos dados, sem excluir a conta</h2>
+    <p>Você pode pedir para apagar apenas parte dos dados, por exemplo só as sugestões, só os relatos ou só os dados de família, mantendo o login. Escreva para <a class="email" href="mailto:privacidade@virtexia.com?subject=Excluir%20dados%20Financy">privacidade@virtexia.com</a> com o assunto <strong>“Excluir dados Financy”</strong> dizendo o que deseja apagar. O prazo também é de até 30 dias.</p>
+  </section>
+
+  <footer>
+    Virtexia — CNPJ 50.910.552/0001-05 · Política de privacidade completa: <a href="https://virtexia.com/apps/privacidade#financy">virtexia.com/apps/privacidade</a>
+  </footer>
+</main>
+</body>
+</html>
